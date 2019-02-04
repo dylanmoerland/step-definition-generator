@@ -1,0 +1,24 @@
+{
+  "name": "step-definition-generator",
+  "main": "./lib/step-definition-generator",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "step-definition-generator:generate"
+  },
+  "configSchema": {
+    "pendingMethod": {
+      "type": "string",
+      "default": "cy.pending();"
+    }
+  },
+  "repository": "https://github.com/dmoerland95/step-definition-generator",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "fs": "0.0.1-security"
+  }
+}

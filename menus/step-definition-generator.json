@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Steps step-definition-generator",
+        "command": "step-definition-generator:generate"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "step-definition-generator",
+          "submenu": [
+            {
+              "label": "Steps",
+              "command": "step-definition-generator:generate"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
