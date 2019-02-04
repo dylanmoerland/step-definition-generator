@@ -2,7 +2,7 @@
   "name": "step-definition-generator",
   "main": "./lib/step-definition-generator",
   "version": "0.0.0",
-  "description": "A short description of your package",
+  "description": "Generate step definitions from feature files.",
   "keywords": [],
   "activationCommands": {
     "atom-workspace": "step-definition-generator:generate"
