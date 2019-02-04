@@ -1,7 +1,7 @@
 {
   "name": "step-definition-generator",
   "main": "./lib/step-definition-generator",
-  "version": "0.0.0",
+  "version": "2.0.0",
   "description": "A short description of your package",
   "keywords": [],
   "activationCommands": {
