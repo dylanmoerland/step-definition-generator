@@ -13,7 +13,7 @@
       "default": "cy.pending();"
     }
   },
-  "repository": "https://github.com/dmoerland95/step-definition-generator",
+  "repository": "https://github.com/dmoerland95/step-definition-generator.git",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
