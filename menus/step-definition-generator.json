@@ -2,7 +2,7 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Steps step-definition-generator",
+        "label": "Generate step definition generator",
         "command": "step-definition-generator:generate"
       }
     ]
@@ -12,10 +12,10 @@
       "label": "Packages",
       "submenu": [
         {
-          "label": "step-definition-generator",
+          "label": "Step definition generator",
           "submenu": [
             {
-              "label": "Steps",
+              "label": "Generate",
               "command": "step-definition-generator:generate"
             }
           ]
