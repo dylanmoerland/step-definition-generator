@@ -1,7 +1,7 @@
 {
   "name": "step-definition-generator",
   "main": "./lib/step-definition-generator",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Generate step definitions from feature files.",
   "keywords": [],
   "activationCommands": {
@@ -11,6 +11,10 @@
     "pendingMethod": {
       "type": "string",
       "default": "cy.pending();"
+    },
+    "useSingleQuotesInFeatures": {
+      "type": "boolean",
+      "default": false
     }
   },
   "repository": "https://github.com/dmoerland95/step-definition-generator.git",
