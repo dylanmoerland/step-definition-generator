@@ -48,7 +48,7 @@ Feature: Login user
 ```
 
 Generated: `Login/Login.js`
-```
+```js
 import { Given, When, Then } from 'cypress-cucumber-preprocessor/steps';
 
 Given('I am on the {a} page', (a) => {
