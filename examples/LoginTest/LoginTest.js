@@ -1,6 +1,6 @@
 import { Given, When, Then } from 'cypress-cucumber-preprocessor/steps';
 
-Given('I am on the {a} page', (a) => {
+Given('I am on the {string} page', (a) => {
   cy.pending();
 });
 
